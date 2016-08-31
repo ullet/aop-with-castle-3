@@ -1,9 +1,9 @@
-﻿namespace Tests
+﻿namespace AopWithCastle.Tests
 {
   using System.IO;
   using System.Text;
-  using AopWithCastle;
   using NUnit.Framework;
+  using AopWithCastle;
 
   [TestFixture]
   public class InterceptedBeanCounterTests : BeanCounterTestsBase

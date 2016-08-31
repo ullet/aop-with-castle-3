@@ -1,13 +1,12 @@
-﻿using Castle.Core;
-using Castle.Core.Interceptor;
-using Castle.MicroKernel;
-using Castle.MicroKernel.Registration;
-using Castle.Windsor;
-
-namespace AopWithCastle
+﻿namespace AopWithCastle
 {
   using System;
   using System.IO;
+  using Castle.Core;
+  using Castle.DynamicProxy;
+  using Castle.MicroKernel.Registration;
+  using Castle.MicroKernel.SubSystems.Configuration;
+  using Castle.Windsor;
 
   // Installs BeanCounter as concrete type for IBeanCounter service with the
   // addition of an error handler interceptor to catch and handle any exceptions

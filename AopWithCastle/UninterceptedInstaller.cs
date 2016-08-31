@@ -1,7 +1,7 @@
 ﻿namespace AopWithCastle
 {
-  using Castle.MicroKernel;
   using Castle.MicroKernel.Registration;
+  using Castle.MicroKernel.SubSystems.Configuration;
   using Castle.Windsor;
 
   // Simply installs BeanCounter as the concrete type for the service without

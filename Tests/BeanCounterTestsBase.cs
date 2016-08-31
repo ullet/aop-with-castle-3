@@ -1,10 +1,11 @@
-namespace Tests
+namespace AopWithCastle.Tests
 {
   using System;
   using System.Collections.Generic;
-  using AopWithCastle;
+  using Castle.MicroKernel.Registration;
   using Castle.Windsor;
   using NUnit.Framework;
+  using AopWithCastle;
 
   // Both intercepted and unintercepted BeanCounter can count good boxes of
   // beans but behaviour is different for a bad box. The Base class has test

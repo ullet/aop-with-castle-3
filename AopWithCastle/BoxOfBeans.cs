@@ -1,7 +1,7 @@
-﻿using System.Collections;
-
-namespace AopWithCastle
+﻿namespace AopWithCastle
 {
+  using System.Collections;
+
   public class BoxOfBeans : IEnumerable
   {
     private readonly object[] _internalArray;

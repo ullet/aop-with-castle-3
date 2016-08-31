@@ -1,9 +1,8 @@
-﻿using System;
-using Castle.Core.Interceptor;
-
-namespace AopWithCastle
+﻿namespace AopWithCastle
 {
+  using System;
   using System.IO;
+  using Castle.DynamicProxy;
 
   public class ErrorHandlerInterceptor : IInterceptor
   {

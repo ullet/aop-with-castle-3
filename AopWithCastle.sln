@@ -5,7 +5,7 @@ VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AopWithCastle", "AopWithCastle\AopWithCastle.csproj", "{AF00A44C-56C9-4BAB-820A-ACC168C2C85A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tests", "Tests\Tests.csproj", "{7CA69418-70AB-42F2-9460-25BB0C75A38D}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AopWithCastle.Tests", "Tests\AopWithCastle.Tests.csproj", "{7CA69418-70AB-42F2-9460-25BB0C75A38D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
