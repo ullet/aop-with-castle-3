@@ -1,21 +1,16 @@
-﻿using System;
-using System.Collections;
+﻿using System.Collections;
 
 namespace AopWithCastle
 {
   public class BoxOfBeans : IEnumerable
   {
-    private static readonly Random Random = new Random();
     private readonly object[] _internalArray;
 
-    public BoxOfBeans()
+    public BoxOfBeans(int numberOfBeans)
     {
-      _internalArray = new object[Random.Next(10, 100)];
+      _internalArray = new object[numberOfBeans];
     }
 
-    public IEnumerator GetEnumerator()
-    {
-      return _internalArray.GetEnumerator();
-    }
+    public IEnumerator GetEnumerator() => _internalArray.GetEnumerator();
   }
 }
